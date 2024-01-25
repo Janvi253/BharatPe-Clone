@@ -1,0 +1,82 @@
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin:0;
+    padding: 0;
+    text-align: center;
+}
+#home{
+    display:flex;
+    justify-content: center;
+    padding: 30px;
+    gap: 30px;
+    font-size: larger;
+    
+}
+#home>div>h2{
+    color:blue;
+    font-size: 40px;
+    font-style: italic;
+    font-stretch: expanded;
+
+}
+#home>div>p{
+    color:black;
+    font-size: 20px;
+    
+}
+
+header {
+    background-color: #0058e7;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+    display: flex;
+    justify-content:space-around;
+}
+
+nav ul {
+    list-style-type:armenian;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 30px;
+    
+}
+
+nav a {
+    color: #fff;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#product {
+    background-color: #333;
+    color: #fff;
+    padding: 30px 20px;
+}
+.productDiv {
+    display:flex;
+    gap: 50px;
+    justify-content: center;
+    align-items: end;
+}
+
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: left;
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;  
+}
+
+footer > div {
+    width: 400px;
+}
+
